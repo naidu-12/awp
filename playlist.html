@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Playlist - Spotify</title>
+
+  </head>
+  <body>
+
+    <a href="playlist.css"></a>
+    <h1>Create Playlist</h1>
+    <form>
+      <label for="playlist-name">Playlist Name:</label>
+      <input type="text" id="playlist-name" name="playlist-name" required>
+      <br>
+      <label for="playlist-description">Playlist Description:</label>
+      <textarea id="playlist-description" name="playlist-description" rows="4" cols="50"></textarea>
+      <br>
+      <label for="playlist-image">Playlist Image:</label>
+      <input type="file" id="playlist-image" name="playlist-image">
+      <br>
+      <label for="playlist-genre">Genre:</label>
+      <select id="playlist-genre" name="playlist-genre">
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="hip-hop">Hip Hop</option>
+        <option value="electronic">Electronic</option>
+        <option value="classical">Classical</option>
+      </select>
+      <br>
+      <label for="playlist-songs">Songs:</label>
+      <input type="text" id="playlist-songs" name="playlist-songs" placeholder="Enter song names separated by commas">
+      <br>
+      <button type="submit">Create Playlist</button>
+    </form>
+    
+  </body>
+</html>
